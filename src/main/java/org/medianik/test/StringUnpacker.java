@@ -4,10 +4,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class StringUnpacker{
-
-    public static void main(String[] args){
-        String s = "3[xyz]4[xy]z";
-    }
     static Pattern p = Pattern.compile("(\\d+)\\[([a-zA-Z]+)\\]");
     /**
      * Unpacks string.
